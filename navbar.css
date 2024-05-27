@@ -1,0 +1,85 @@
+/* Úpravy pro navigační panel */
+.navbar {
+    background-color: #11175B;
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+}
+
+.kontejner {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 250px;
+}
+
+.logo img {
+    width: 17%;
+    height: auto;
+}
+
+.vlevo {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 510px;
+}
+
+.vlevo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    position: relative; 
+    margin-right: 18px;
+}
+
+.vlevo a:hover {
+    color: #6EB5FF;
+}
+
+/* Animace pro podtržení odkazů při najetí kurzoru */
+.vlevo a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+
+.vlevo a:hover::after {
+    width: 100%;
+}
+
+/* Styly pro tlačítko Přihlášení */
+.prihlaseni {
+    margin-right: 250px;
+    background-color: #3498db;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.prihlaseni a {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+
+.prihlaseni a .icon {
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;  
+}
+
+.prihlaseni:hover {
+    background-color: #060a0e;
+}

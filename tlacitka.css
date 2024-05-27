@@ -1,0 +1,37 @@
+.tlacitkoUvodniText {
+    text-align: left;   
+    margin: 20px 0;
+}
+
+.tlacitkoUvodniText .button {
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+    margin-right: 15px; 
+}
+
+.tlacitkoUvodniText .button:last-child {
+    margin-right: 0;
+}
+
+.tlacitkoUvodniText .button1 {
+    background-color: #0056b3;
+    color: white; 
+}
+
+.tlacitkoUvodniText .button1:hover {
+    background-color: #042d58; 
+}
+
+.tlacitkoUvodniText .button2 {
+    background-color: white; 
+    color: black; 
+}
+
+.tlacitkoUvodniText .button2:hover {
+    background-color: #a6a8aa; 
+}
